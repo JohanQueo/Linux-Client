@@ -48,7 +48,7 @@ dynamic_memory_allocator alloc;
 memory_allocator& protoson::pool = alloc;
 
 #ifndef THINGER_SERVER
-    #define THINGER_SERVER "iot.thinger.io"
+    #define THINGER_SERVER "queoaccess.aws.thinger.io"
 #endif
 
 #ifndef THINGER_PORT
